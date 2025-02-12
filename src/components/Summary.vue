@@ -152,98 +152,98 @@ const tick = () => {
 
 const images = [
   "./images/html.png",
-  "/website/images/css.png",
-  "/website/images/js.png",
-  "/website/images/ts.png",
-  "/website/images/vuejslogo.png",
-  "/website/images/nuxtlogo.png",
-  "/website/images/threelogo.jpg",
-  "/website/images/astrologo.jpg",
+  "./images/css.png",
+  "./images/js.png",
+  "./images/ts.png",
+  "./images/vuejslogo.png",
+  "./images/nuxtlogo.png",
+  "./images/threelogo.jpg",
+  "./images/astrologo.jpg",
 ];
 
 const imagesPro = [
   {
-    img: "/website/images/LogNes.jpg",
+    img: "./images/LogNes.jpg",
     description:
       "Création de pages événementielles (<em>Black Friday</em> 2022 & 2023, Collaboration <em>Pierre Hermé</em>, <em>Mory Sacko</em>), page de lancement de nouvelle machine (<em>Vertuo Pop</em>), <em>HomePage</em> modulaire 2024. <br> Création d'un <em>CMS</em> pour aider à la conception des pages. <br> Travail de fond sur la mise en place d'un design system complet. Conception côté B2C majoritairement, mais également en B2B ponctuellement",
   },
   {
-    img: "/website/images/VtsLogo.PNG",
+    img: "./images/VtsLogo.PNG",
     description: "Conception d'outils pour <em>créer</em> des sites simples en Point&Click. <br> Elaboration de thèmes sélectionnables puis customisable grâce aux outils développés. <br> Créer la possibilité d'en générer une version totalement statique pour augmenter les performances.",
   },
   {
-    img: "/website/images/CerfLogo.jpg",
+    img: "./images/CerfLogo.jpg",
     description: "Création et gestion d'une grosse <em>flotte de site</em>. <br> Conception de maquettes complètes avec un gros focus sur <em>l'UI et l'accessibilité</em>. ",
   },
 ];
 
 const pro = [
   {
-    img: "/website/images/project/nes.png",
+    img: "./images/project/nes.png",
   },
   {
-    img: "/website/images/project/home.png",
+    img: "./images/project/home.png",
   },
   {
-    img: "/website/images/project/mory.png",
+    img: "./images/project/mory.png",
   },
   {
-    img: "/website/images/project/ph.png",
+    img: "./images/project/ph.png",
   },
   {
-    img: "/website/images/project/pop.png",
+    img: "./images/project/pop.png",
   },
   {
-    img: "/website/images/project/zambia.png",
+    img: "./images/project/zambia.png",
   },
 ];
 
 const games = [
   {
-    img: "/website/images/project/fps.png",
-    url: "https://ackermiam.github.io/lab-fps/",
+    img: "./images/project/fps.png",
+    url: "",
     isPhoneComp: false,
   },
   {
-    img: "/website/images/project/lab.png",
-    url: "https://ackermiam.github.io/labyrinthe/",
+    img: "./images/project/lab.png",
+    url: "",
     isPhoneComp: true,
   },
   {
-    img: "/website/images/project/onroad.png",
-    url: "https://ackermiam.github.io/on-road/",
+    img: "./images/project/onroad.png",
+    url: "",
     isPhoneComp: true,
   },
   {
-    img: "/website/images/project/rpgame.png",
-    url: "https://ackermiam.github.io/rp-game/",
+    img: "./images/project/rpgame.png",
+    url: "",
     isPhoneComp: true,
   },
   {
-    img: "/website/images/project/invade.png",
-    url: "https://ackermiam.github.io/egirl-invaders/",
+    img: "./images/project/invade.png",
+    url: "",
     isPhoneComp: false,
   },
 ];
 const test = [
   {
-    img: "/website/images/project/nesport.png",
-    url: "https://ackermiam.github.io/spaceportfolio/",
+    img: "./images/project/nesport.png",
+    url: "",
     isPhoneComp: true,
   },
   {
-    img: "/website/images/project/mapedit.png",
-    url: "https://ackermiam.github.io/map-editor/",
+    img: "./images/project/mapedit.png",
+    url: "",
     isPhoneComp: true,
   },
   {
-    img: "/website/images/project/horror.png",
-    url: "https://ackermiam.github.io/horror-site/",
+    img: "./images/project/horror.png",
+    url: "",
     isPhoneComp: true,
   },
   {
-    img: "/website/images/project/portfolio.png",
-    url: "https://ackermiam.github.io/portfolio/",
+    img: "./images/project/portfolio.png",
+    url: "",
     isPhoneComp: true,
   },
 ];
