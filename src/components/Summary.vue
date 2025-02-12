@@ -151,7 +151,7 @@ const tick = () => {
 };
 
 const images = [
-  "../website/images/html.png",
+  "./images/html.png",
   "/website/images/css.png",
   "/website/images/js.png",
   "/website/images/ts.png",
