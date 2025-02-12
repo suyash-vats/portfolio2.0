@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="">
 import Home from "./components/Home.vue";
 import Summary from "./components/Summary.vue";
 import Loading from "./components/Loading.vue";
@@ -14,7 +14,7 @@ setTimeout(() => {
 <template>
   <div class="App">
     <div class="TitleContainer">
-      <p class="Title Title--first">Acker'<br />Prod.</p>
+      <p class="Title Title--first">Suyash<br />Vats.</p>
     </div>
 
     <button v-if="!isLoading" class="Button" @click="handleSummary()">
@@ -49,7 +49,7 @@ setTimeout(() => {
 }
 
 .Title::before {
-  content: "Acker'\AProd";
+  content: "Suyash'\AVats.";
   position: absolute;
   top: -1px;
   left: -1px;
@@ -58,7 +58,7 @@ setTimeout(() => {
 }
 
 .Title::after {
-  content: "Acker'\AProd";
+  content: "Suyash'\AVats.";
   position: absolute;
   top: 2px;
   left: 2px;

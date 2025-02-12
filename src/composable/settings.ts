@@ -7,8 +7,8 @@ const showSummary = ref(false);
 //MANAGE 3D SCENE
 const currentStep = ref(0);
 const steps = [
-  { first: "Acker'", second: "Prod." },
-  { first: "French", second: "Dev" },
+  { first: "Suyash", second: "Vats." },
+  { first: "Indian", second: "Dev" },
   { first: "Web", second: "&3D" },
   {},
 ];
