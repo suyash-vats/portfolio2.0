@@ -1,4 +1,4 @@
-<script setup lang="">
+<script setup lang="ts">
 import Home from "./components/Home.vue";
 import Summary from "./components/Summary.vue";
 import Loading from "./components/Loading.vue";
