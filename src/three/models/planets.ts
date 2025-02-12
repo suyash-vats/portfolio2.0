@@ -70,14 +70,14 @@ export class Planets {
 
   loadFont() {
     const fontLoader = new FontLoader();
-    fontLoader.load("/website/fonts/mewafont.json", (font) => {
+    fontLoader.load("./fonts/mewafont.json", (font) => {
       this.font = font;
       this.createText();
     });
   }
 
   createText() {
-    const matCapTexture = this.textureLoader.load("/website/textures/4.png");
+    const matCapTexture = this.textureLoader.load("./public/textures/4.png");
     matCapTexture.colorSpace = SRGBColorSpace;
 
     const textMaterial = new MeshMatcapMaterial({

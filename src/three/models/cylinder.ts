@@ -11,9 +11,9 @@ import {
 } from "three";
 import { Engine } from "../engine";
 
-import snowtexture from "../../assets/textures/protexture.png";
-import lavatexture from "../../assets/textures/stacktexture.png";
-import grasstexture from "../../assets/textures/projecttexture.png";
+import snowtexture from "../../assets/textures/snow/snowtexture.png";
+import lavatexture from "../../assets/textures/lava/lavatexture.jpg";
+import grasstexture from "../../assets/textures/grass/grasstexture.jpg";
 
 export class Cylinder {
   mesh: Mesh;

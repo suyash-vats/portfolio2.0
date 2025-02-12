@@ -25,7 +25,7 @@ export class Bike {
   }
 
   async loadMesh() {
-    const gltf = await this.loader.loadAsync("/website/models/bike.glb");
+    const gltf = await this.loader.loadAsync("./models/bike.glb");
 
     this.mesh = gltf.scene;
     this.animation = gltf.animations;
